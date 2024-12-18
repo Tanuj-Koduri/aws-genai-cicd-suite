@@ -60,7 +60,7 @@ jobs:
 
     # Run the Intelligent GitHub Actions from your forked repository
     - name: Intelligent GitHub Actions
-      uses: Tanuj-Koduri/aws-genai-cicd-suite@stable
+      uses: Tanuj-Koduri/aws-genai-cicd-suite@main
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub
         aws-region: us-east-1                      # AWS region for Bedrock
